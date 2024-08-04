@@ -13,7 +13,7 @@ add(b=40,a=60)  #these are keyword arguments
 
 
 
-#these is the  required arguments 
+#this is the  required arguments 
 def add(a,b,c=100):  
     print(a+b+c)
     
