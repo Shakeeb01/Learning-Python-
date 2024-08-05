@@ -1,5 +1,5 @@
 Name = input("Enter Your Name : ")
-print(Name,"You are welcome to the Quiz Game.")
+print(f"{Name} You are welcome to the Quiz Game.")
 # Question that will asked by User.
 Questions = [
     "What is the Capital of Pakistan ? ",
