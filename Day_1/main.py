@@ -6,3 +6,4 @@
 
 # Modules.
 # There are two types of modules are:built-in modules and External modules.
+print("Day 1")
