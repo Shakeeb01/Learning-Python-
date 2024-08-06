@@ -11,7 +11,6 @@ def factorial(num):
 print(factorial(5))       
 
 
-
 def fibonacci(n):
     # Base cases
     if (n == 0 or n ==1):
