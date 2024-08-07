@@ -6,13 +6,9 @@ try:
 except:
     print(f"invalid input '{a}' ")
     
- 
 print("Some important lines of code.") 
     
-    
-    
-    
- # ******** Custom Erros ***********
+# ******** Custom Erros ***********
  
 num = int(input("Enter the number between 5 to 10"))
 
