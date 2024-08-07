@@ -17,9 +17,11 @@ Name = "Shakeeb"
 
 
 # using for loop with strings:
-# Full_Name = "Shakeeb ur Rehman"
-# for character in Full_Name:
-#     print(character)
+Full_Name = "Shakeeb ur Rehman"
+for i,character in enumerate(Full_Name, start=0):
+    print(i,character)    
+
+           
 
 
 
