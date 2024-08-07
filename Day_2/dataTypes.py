@@ -9,7 +9,7 @@
 
 # 3. Boolean data: True or False
 
-# 4. Sequenced data : list,tuple
+# 4. Sequenced data : list,tuple 
 
 # 5. Mapped data : dict
 
