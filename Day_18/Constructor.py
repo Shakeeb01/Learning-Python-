@@ -20,7 +20,6 @@ class Animale():
         
         
 # 2. Default Constructor.
-
 class Student():
     def __init__(self):
         print("this is default construtor.")
