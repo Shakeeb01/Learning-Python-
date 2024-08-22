@@ -1,0 +1,37 @@
+=> Types of Programming:-
+1. Impertive Programming
+2. Funtional Programming
+3. Object Oriented Programming
+
+
+=> What is special about OOPS ?
+1. Make our code more reusable.
+2. Easier to work with large programms.
+3. OOPS Programm prevent you from repeating code.
+4. OOP provide you security.
+
+=> What is Class? 
+A class is a blueprint for creating objects.
+
+=> What are objects?
+Objects are instances of classes.
+
+=> What is Encapsulation?
+In Programming,encapsulation is about keeping some information(data) safe and only letting 
+it be changed or looked at in specific ways.
+
+=> What is Polymorphism?
+Polymorphism means having many forms.
+
+=> What is inheritence>
+When a class inherits some feature from another class this phenomena is known 
+as inheritence. 
+
+=> What is Abstraction?
+when we only see the essential part of our code and hides the rest is the
+process of Abstraction. 
+
+
+=> Private and Public class attribute and methods:
+public attribute and methods can be used outside the class.
+private attribute and methos can be used outside the class.
