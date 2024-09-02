@@ -27,9 +27,48 @@ class Atm:
         self.balance = 0
         self.menu()    
     
+    # this is to create pin
+    def create_pin(self):
+        self.pin = input("Enter your pin.")
+        print("Pin set successfully! ")
+        
+    # this is to deposite 
+    def deposite(self):
+        temp = input("Enter your pin.")
+        if temp == self.pin:
+            deposite_amount = int(input("Enter the amount."))
+            self.balance+=deposite_amount
+            print("Deposite Successfull!")
+        else:
+            print("Invalid pin.")    
+            
+    #  this is to withdraw
+    def withdraw(self):
+        temp = input("Enter your pin.")
+        if temp == self.pin:
+            withdraw_amount = int(input("Enter the amount."))
+            if withdraw_amount < self.balance:
+                self.balance-=withdraw_amount 
+                print("Withdraw successfull!")
+            else:
+                print("insuficients balance.")
+        else:
+            print("invalid pin.")        
+            
+    # this is check total balance.
+    def check_balance(self):
+        temp = input("Enter your pin.")
+        if temp == self.pin:
+            print(self.balance)
+        else:
+            print("invalid pin.")    
+         
+        
+    
+               
     def menu(self):
         user_input = input("""Hello,how would you like to proceed?
-        Enter 1 to create pin
+        Enter 1 to create pin 
         Enter 2 to deposite
         Enter 3 to withdraw
         Enter 4 to check balance
@@ -38,17 +77,19 @@ class Atm:
         """)
         
         if user_input == "1":
-            print("create a pin.")
+            self.create_pin()
         elif user_input == "2":
-            print("Deposite balance.")
+            self.deposite()
         elif user_input == "3":
-            print("withdraw")
+            self.withdraw()
         elif user_input == "4":
-            print("Total balance.")
+            self.check_balance()
         elif user_input == "5":
-            print("exiting.")
+            print("Goodbye!")
+            
         else:
             print("invalid option.")                    
         
-
-company = Atm()        
+    
+company = Atm()      
+company.deposite()  
