@@ -1,0 +1,33 @@
+# => Introduction to Object-Oriented-Programming.
+# In programming languages,mainly there are two approaches that are used to write program or code.
+# 1. Procedural Programming.
+# 2. Object Oriented Programming.
+
+# => Object-Oriented Programming (OOP) in Python is a paradigm that organizes software design around data, or objects, rather than functions and logic. An object can be anything that represents a concept or a real-world entity and has properties (attributes) and behaviors (methods).
+
+# =>  Key Concepts of OOP in Python:
+
+# 1. Class:
+    # A blueprint for creating objects. A class encapsulates data for the object and methods to manipulate that data.
+# 2. Object:
+    # An instance of a class. Objects are the concrete entities created based on the blueprint provided by the class.
+# 3. Attributes:
+    #  Variables that hold data specific to an object or class. They represent the state of the object.
+# 4. Methods:
+    #  Functions defined inside a class that describe the behaviors of the objects created from the class.
+
+
+# => Four Pillers Of OOP:
+
+# 1. Encapsulation:
+    # The concept of bundling data (attributes) and methods that operate on the data into a single unit or class. It also refers to restricting access to certain attributes or methods to protect the object's integrity.
+# 2. Inheritence:
+    # The mechanism of creating a new class from an existing class. The new class (child class) inherits attributes and methods from the existing class (parent class), allowing for code reuse and the creation of a hierarchical relationship.
+# 3. Polymorphism:
+    #  The ability of different objects to respond in their way to the same method call. It allows one interface to be used for different data types.
+#  4. Abstraction:
+    # The concept of hiding the complex reality while exposing only the necessary parts. It reduces complexity by hiding unnecessary details from the user.
+    
+        
+        
+    
